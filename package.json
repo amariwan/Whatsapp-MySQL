@@ -1,0 +1,19 @@
+{
+    "name": "Whatsapp MySQL",
+    "version": "1.0.0",
+    "description": "A program that allows you to manage a database in MYSQL from Whatsapp",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "test": "node app.js"
+    },
+    "author": "Aland Mariwan",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "mysql": "^2.18.1",
+        "qrcode-terminal": "^0.12.0",
+        "sharp": "^0.29.3",
+        "whatsapp-web.js": "^1.15.1"
+    }
+}
